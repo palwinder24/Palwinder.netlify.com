@@ -44,7 +44,7 @@ a{
     margin-top:-5%;
     
     z-index:1;
-    position:fixed;
+    position: relative;
     border-radius:100px;
 
     box-shadow: 5px 5px 5rem 5px black;
