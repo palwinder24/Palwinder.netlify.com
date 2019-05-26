@@ -53,7 +53,7 @@ a{
 
 }
 body{
-    background-image:url(hero.jpg) no-repeat center center fixed;
+    background-image:url(hero.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
