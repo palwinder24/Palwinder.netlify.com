@@ -49,12 +49,3 @@ a{
 
     box-shadow: 5px 5px 5rem 5px black;
 }
-
-.square{
-    background-image:url("hero.jpg");
-    width:75px;
-    height:75px;
-    align-content:center;
-    margin-left:40%;
-    margin-top:-2%;
-}
