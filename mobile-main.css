@@ -9,6 +9,18 @@
 P{
 Font-size:16px;
 }
+a{
+    color:White;
+    text-decoration:none;
+}
+#nav{
+    position:fixed;
+    PADDING:2%;
+    COLOR:Black;
+    transition:ease-in-out;
+
+   
+}
 body{
     background: black;
 }
