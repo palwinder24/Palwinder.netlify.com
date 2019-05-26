@@ -16,8 +16,9 @@ a{
 #nav{
     position:fixed;
     PADDING:2%;
-    COLOR:Black;
+    text-align:center;
     transition:ease-in-out;
+    size:16px;
 
    
 }
