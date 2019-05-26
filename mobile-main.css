@@ -30,9 +30,9 @@ a{
 
 #heroimg{
    
-    width:40%;
+   width:100%;
 
-    border-radius:50%;
+  
     margin-top:10%;
  
    z-index:-1;
@@ -48,6 +48,8 @@ a{
     border-radius: 100px;
     margin: 10%;
     margin-top: 8%;
+    height: 50%;
+    
 
 }
 body{
