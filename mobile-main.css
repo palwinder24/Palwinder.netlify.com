@@ -40,8 +40,8 @@ a{
 
 #hero_text{
     size: 27px;
-    color: white;
-    background: blue;
+    color: black;
+    background: white;
     padding: 20px;
     z-index: 1;
     position: relative;
