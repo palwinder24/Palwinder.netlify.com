@@ -19,7 +19,7 @@ a{
     text-align:center;
     transition:ease-in-out;
     size:16px;
-
+    z-index:3;
    
 }
 
