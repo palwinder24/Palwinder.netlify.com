@@ -13,6 +13,11 @@ a{
     color:White;
     text-decoration:none;
 }
+#hero{
+  
+    text-align: center;
+   
+}
 #nav{
     position:fixed;
     PADDING:2%;
