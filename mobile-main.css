@@ -52,16 +52,30 @@ a{
     text-align: center;
 }
 #hero-name{
-    size: 27px;
+    margin-left:48%;
+    margin-right:25%;
+    font-size:30px;
+    color:white;
+    background:blue;
+    padding:10px;
+    margin-top:-5%;
+    z-index:1;
+    position: relative;
+    border-radius:100px;
+    box-shadow: 5px 5px 5rem 5px black;
+}
+#hero-card{
+    font-size: 35px;
     color: black;
     background: white;
-    padding: 20px;
+    padding: 25px;
+    padding-left: 53px;
     z-index: 1;
     position: relative;
-    border-radius: 100px;
-    margin: 10%;
-    margin-top: 8%;
-    height: 50%;
+    border-radius: 70px;
+    margin: 4%;
+    margin-top: 10%;
+    height: 800px;
     
 
 }
