@@ -30,11 +30,11 @@ a{
 
 #heroimg{
    
-   width:50%;
-
-  
+    width:40%;
+    height:20%;
+    border-radius:50%;
     margin-top:10%;
- 
+    box-shadow:1px 1px 20rem 0.1px black;
    z-index:-1;
 }
 
@@ -53,11 +53,7 @@ a{
 
 }
 body{
-    background-image:url(hero.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: black;
 
 }
 }
