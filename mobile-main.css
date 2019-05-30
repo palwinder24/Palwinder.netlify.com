@@ -40,7 +40,7 @@ a{
 #hero-text{
     margin-left: 56%;
     margin-right: 24%;
-    font-size: 54px;
+    font-size: 50px;
     color: white;
     background: blue;
     padding: 14px;
@@ -52,17 +52,18 @@ a{
     text-align: center;
 }
 #hero-name{
-    margin-left:48%;
-    margin-right:25%;
-    font-size:30px;
-    color:white;
-    background:blue;
-    padding:10px;
-    margin-top:-5%;
-    z-index:1;
+    margin: 19%;
+    font-size: 45px;
+    color: white;
+    background: blue;
+    padding: 26px;
+    margin-top: 0%;
+    z-index: 1;
     position: relative;
-    border-radius:100px;
+    border-radius: 100px;
     box-shadow: 5px 5px 5rem 5px black;
+    text-align: center;
+
 }
 #hero-card{
     font-size: 35px;
