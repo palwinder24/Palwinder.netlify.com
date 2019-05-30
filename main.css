@@ -1,4 +1,4 @@
-/* ----------- Non-Retina Screens -----------
+/* ----------- Non-Retina Screens -----------*/
 @media screen 
   and (min-device-width: 1000px) 
   and (max-device-width: 1600px) 
@@ -7,7 +7,7 @@
 
 
 
- */
+
 body{
     background-color: white;
 }
