@@ -70,13 +70,13 @@ a{
     font-size: 37px;
     color: black;
     background: white;
-    padding: 25px;
+    padding: 35px;
     padding-left: 53px;
     z-index: 1;
     position: relative;
     border-radius: 70px;
     margin: 4%;
-    margin-top: 10%;
+    margin-top: -10%;
     height: 800px;
     
 
