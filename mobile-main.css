@@ -37,8 +37,23 @@ a{
     box-shadow:1px 1px 20rem 0.1px black;
    z-index:-1;
 }
+#hero-text{
+margin-left:48%;
+margin-right:25%;
 
-#hero_text{
+size:27px;
+color:white;
+background:blue;
+padding:10px;
+margin-top:-5%;
+
+z-index:1;
+position: relative;
+border-radius:100px;
+
+box-shadow: 5px 5px 5rem 5px black;
+}
+#hero-name{
     size: 27px;
     color: black;
     background: white;
