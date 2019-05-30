@@ -66,7 +66,8 @@ a{
 
 }
 #hero-card{
-    font-size: 35px;
+    text-align: center;
+    font-size: 37px;
     color: black;
     background: white;
     padding: 25px;
