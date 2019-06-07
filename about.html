@@ -9,6 +9,9 @@
     enable_page_level_ads: true
   });
 </script>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="if.js" ></script>
+
             <link type="text/css" href="main.css" rel="stylesheet">
             <link type="text/css" href="mobile-main.css" rel="stylesheet">
       </head>
@@ -22,13 +25,16 @@
                            <a href="shop.html">Shop</a>
                  </center>
                </div>
+               <div id="app">
                <div id="hero">
-                           <img src="hero.jpg" id="heroimg">
+                           <img  v-bind:src="heroimage" id="heroimg">
                </div>
 
-               <div>
-                           <p id="hero-text">
-                            Hi!
+               
+                          
+               
+                <p id="hero-text">
+                            {{herotext}}
                            </p>
                            <p id="hero-name">
                              Myself Palwinder Singh
@@ -39,11 +45,12 @@
                             I am a Student, Designer, Web Developer(Html,Css,javascript,php and mysql), Programmer
 (C/C++ and Python) and most importantly I love Coding.
                            </div>
-               </div>  
+               
                 <div id=“ad”>
 
 
-</div>          
+</div>   
+      </div>
        </body>
        
 </html>
