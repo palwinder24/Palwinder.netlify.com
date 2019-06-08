@@ -5,12 +5,10 @@
   and (max-device-width: 900px) 
 
 {
-    #about{
-        margin-top: -7px;
-    }
+    
 .backbutton{
     width: 15%;
-    margin-top: -11px;
+  
     padding: 19px;
     border-radius: 86px;
     border-width: 0px;
