@@ -8,8 +8,10 @@
         <link type="text/css" href="mobile-main.css" rel="stylesheet">
       </head>
 
-        <body onload="loadpage()">
-                
+        <body onload="homepage()">
+                <style type="text/css" >
+                  
+                  </style>
           <div id="home">     
                          <center>
                           <input type="button" id="aboutbutton" onclick="loadabout()" value="About">
@@ -45,13 +47,13 @@
 
               <script type="text/javascript" language="javascript">
               function loadabout(){
-                document.getElementById("home").style.display = "none";
-                document.getElementById("about").style.display="block";
+                document.getElementById("home").style.visibility = "hidden";
+                document.getElementById("about").style.visibility="visible";
                  }
-                 function loadpage()
+                 function homepage()
                  {
-                   document.getElementById("about").style.display="none";
-                   document.getElementById("home").style.display="block";
+                  document.getElementById("about").style.visibility="hidden";
+                   document.getElementById("home").style.visibility="visible";
                  }
               </script>
         </body>
