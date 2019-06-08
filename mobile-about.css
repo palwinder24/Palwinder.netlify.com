@@ -5,15 +5,24 @@
   and (max-device-width: 900px) 
 
 {
-    
 .backbutton{
-    width: 15%;
-  
-    padding: 19px;
+    padding: 23px;
     border-radius: 86px;
     border-width: 0px;
+    font-size: 27px;
+    background-color: white;
+    color: black;
+    margin-left: 10px;
 }
-
+.aboutbutton{
+    padding: 20px;
+    border-radius: 86px;
+    border-width: 0px;
+    font-size: 33px;
+    background-color: white;
+    color: black;
+  
+}
 P{
 Font-size:16px;
 }
