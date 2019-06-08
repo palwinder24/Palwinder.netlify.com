@@ -2,41 +2,56 @@
 
 <html>
       <head>
-           
-          
-        </head>
+        <title>Palwinder Singh</title>
+
+        <link type="text/css" href="main.css" rel="stylesheet">
+        <link type="text/css" href="mobile-main.css" rel="stylesheet">
+      </head>
 
         <body>
-                
-          <div id="home">                  <center>
-
-<br>
-<br>
-<br>
-<br>
-
-                        
-<input type="button" id="aboutbutton" onclick="loadabout()" value="About">
-<br>
-<br>
-                        Go to <a href="about.html">About Page Here
-
-                        </a>
-                        or 
-                        <a href="blog.html">
-                            Blog
-                        </a>
-                     </center>
+                <style type="text/css" >
+                  #about{
+                          display:hidden;
+                        }
+                  </style>
+          <div id="home">     
+                         <center>
+                          <input type="button" id="aboutbutton" onclick="loadabout()" value="About">
+                            <br>
+                            <br>
+                            Go to <a href="about.html">About Page </a>
+                            or 
+                            <a href="blog.html">Blog</a>
+                         </center>
 
 
-                </div>
+           </div>
         
+           <div id="about">
+              <div id="hero">
+                  <img src="hero.jpg" id="heroimg">
               </div>
+
+                <div>
+                  <p id="hero-text">
+                   Hi!
+                  </p>
+                  <p id="hero-name">
+                    Myself Palwinder Singh
+                  </p>
+                  <div id="hero-card">
+                      I am a Student, Designer, Web Developer(Html,Css,javascript,php and mysql), Programmer
+                      (C/C++ and Python) and most importantly I love Coding.
+                  </div>
+                 </div>  
+       
+            </div>
+
               <script type="text/javascript" language="javascript">
               function loadabout(){
                 document.getElementById("home").style.display = "none";
-
-  }
+                document.getElementById("about").style.display="block";
+                 }
               </script>
         </body>
 </html>

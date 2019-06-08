@@ -5,7 +5,10 @@
   and (max-device-width: 900px) 
 
 {
+#about{
+display:hidden;
 
+}
 P{
 Font-size:16px;
 }
