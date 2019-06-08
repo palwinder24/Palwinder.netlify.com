@@ -8,12 +8,8 @@
         <link type="text/css" href="mobile-main.css" rel="stylesheet">
       </head>
 
-        <body>
-                <style type="text/css" >
-                  #about{
-                          display:hidden;
-                        }
-                  </style>
+        <body onload="loadpage()">
+                
           <div id="home">     
                          <center>
                           <input type="button" id="aboutbutton" onclick="loadabout()" value="About">
@@ -51,6 +47,11 @@
               function loadabout(){
                 document.getElementById("home").style.display = "none";
                 document.getElementById("about").style.display="block";
+                 }
+                 function loadpage()
+                 {
+                   document.getElementById("about").style.display="none";
+                   document.getElementById("home").style.display="block";
                  }
               </script>
         </body>
