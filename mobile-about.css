@@ -5,6 +5,16 @@
   and (max-device-width: 900px) 
 
 {
+    #homepage{
+        z-index:0;
+        position: relative;
+    }
+    #aboutpage{
+        z-index:1;
+        visibility:hidden;
+        position: relative;
+    }
+    
 .backbutton{
     padding: 23px;
     border-radius: 86px;
@@ -21,6 +31,7 @@
     font-size: 33px;
     background-color: white;
     color: black;
+    margin-top:10px;
   
 }
 P{
