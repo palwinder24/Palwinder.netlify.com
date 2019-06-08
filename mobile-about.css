@@ -8,6 +8,7 @@
     #homepage{
         z-index:0;
         position: relative;
+        margin-top:34px;
     }
     #aboutpage{
         z-index:1;
