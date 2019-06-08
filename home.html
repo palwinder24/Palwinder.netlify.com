@@ -8,7 +8,7 @@
 
         <body>
                 
-                     <center>
+          <div id="home">                  <center>
 
 <br>
 <br>
@@ -16,7 +16,9 @@
 <br>
 
                         
-
+<input type="button" id="aboutbutton" onclick="loadabout()" value="About">
+<br>
+<br>
                         Go to <a href="about.html">About Page Here
 
                         </a>
@@ -29,7 +31,13 @@
 
                 </div>
         
-                
+              </div>
+              <script type="text/javascript" language="javascript">
+              function loadabout(){
+                document.getElementById("home").style.display = "none";
+
+  }
+              </script>
         </body>
 </html>
 
