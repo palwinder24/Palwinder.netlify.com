@@ -15,16 +15,15 @@
         visibility:hidden;
         position: relative;
     }
-    #navigationbar{
-        z-index: 2;
-        background-color: white;
-        color: black;
-        font-size: 30px;
-        text-align: center;
-        position: fixed;
-        margin-top: -45px;
-        padding: 22px;
-        width: 100%;
+    .navigationbar{
+    
+                   overflow: hidden;
+            background-color: white;
+            position: fixed; /* Set the navbar to fixed position */
+            top: 0; /* Position the navbar at the top of the page */
+            width: 100%; /* Full width */
+          padding:15px;
+
     }
     
 .backbutton{
