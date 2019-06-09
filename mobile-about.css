@@ -16,7 +16,7 @@
         position: relative;
     }
     .navigationbar{
-    
+    z-index:3;
                    overflow: hidden;
             background-color: white;
             position: fixed; /* Set the navbar to fixed position */
