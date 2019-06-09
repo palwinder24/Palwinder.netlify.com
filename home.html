@@ -20,7 +20,7 @@
            </div>
         
            <div id="aboutpage">
-             <a align="left" onclick="homepage()" class="backbutton">Back</a>
+             
               <div id="hero">
                   <img src="hero.jpg" id="heroimg">
               </div>
@@ -41,11 +41,10 @@
             </div>
             <div class="navigationbar">
               <center>
-                         
+                <a align="left" onclick="homepage()" class="backbutton">Home</a>
                 <a align="center" onclick="loadabout()" class="aboutbutton">About</a>
                 <a align="center" onclick="loadabout()" class="aboutbutton">Blog</a>
-                  
-                  
+               
                </center>
             </div>
 
@@ -58,6 +57,7 @@
                  {
                   document.getElementById("aboutpage").style.visibility="hidden";
                    document.getElementById("homepage").style.visibility="visible";
+                   document.getElementsByClassName("backbutton").style.visibility="hidden";
                  }
               </script>
         </body>
