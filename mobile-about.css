@@ -12,19 +12,20 @@
     }
     #aboutpage{
         z-index:1;
-        visibility:hidden;
+        visibility: hidden;
         position: relative;
         padding-top: 7%;
     }
     .navigationbar{
              z-index:3;
                    overflow: hidden;
-            background-color: white;
+            background-color: rgb(42, 91, 165);
+            color:white;
             position: fixed; /* Set the navbar to fixed position */
             bottom:0;
             left:0;
             right:0;
-             /* Position the navbar at the top of the page */
+                     /* Position the navbar at the top of the page */
             width: 100%; /* Full width */
           padding:40px;
           
@@ -36,8 +37,8 @@
     border-radius: 86px;
     border-width: 0px;
     font-size: 27px;
-    background-color: white;
-    color: black;
+    
+    
     margin-left: 10px;
 }
 .aboutbutton{
@@ -45,8 +46,7 @@
     border-radius: 86px;
     border-width: 0px;
     font-size: 33px;
-    background-color: white;
-    color: black;
+
     margin-top:10px;
   
 }
@@ -78,7 +78,7 @@ a{
     height:20%;
     border-radius:50%;
     margin-top:10%;
-    box-shadow:1px 1px 20rem 0.1px black;
+    box-shadow: 5px 5px 5rem 5px black;
    z-index:-1;
 }
 #hero-text{
@@ -122,6 +122,7 @@ a{
     margin: 4%;
     margin-top: -10%;
     height: 800px;
+    box-shadow: 5px 5px 5rem 5px black;
     
 
 }
@@ -129,7 +130,9 @@ a{
 Width:50%;
 }
 body{
-  background: black;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+
 
 }
 }
