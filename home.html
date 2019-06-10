@@ -3,11 +3,18 @@
 <html>
       <head>
         <title>Palwinder Singh</title>
+        <!-- CODELAB: Add iOS meta tags and icons -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Palwinder">
+        <link rel="apple-touch-icon" href="picon.png">
 
-        <meta name="viewport"  />
-        <link rel="manifest" href="manifest.json" />
+<!-- CODELAB: Add description here -->
+<meta name="description" content="A simple personal blog and about website">
 
-
+<!-- CODELAB: Add meta theme-color -->
+<meta name="theme-color" content="white" />
+<link href="/manifest.json" rel="manifest">
         <link type="text/css" href="about.css" rel="stylesheet">
         <link type="text/css" href="mobile-about.css" rel="stylesheet">
       </head>
@@ -53,7 +60,19 @@
             </div>
 
               <script type="text/javascript" language="javascript">
-             
+// CODELAB: Register service worker.
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js')
+        .then((reg) => {
+          console.log('Service worker registered.', reg);
+        });
+  });
+}
+
+
+
+
               function loadabout(){
                 document.getElementById("homepage").style.visibility = "hidden";
                 document.getElementById("aboutpage").style.visibility="visible";
