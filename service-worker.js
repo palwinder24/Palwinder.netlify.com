@@ -29,7 +29,7 @@ evt.waitUntil(
 // CODELAB: Add fetch event handler here.
 if (evt.request.mode !== 'navigate') {
   // Not a page navigation, bail.
-break;
+return 0;
 }
 evt.respondWith(
     fetch(evt.request)
