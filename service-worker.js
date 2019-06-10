@@ -10,6 +10,7 @@ const DATA_CACHE_NAME = 'data-cache-v1';
 
 
 
+
 // CODELAB: Remove previous cached data from disk.
 evt.waitUntil(
   caches.keys().then((keyList) => {
