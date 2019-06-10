@@ -1,5 +1,9 @@
 
 
+const CACHE_NAME = 'static-cache-v2';
+const DATA_CACHE_NAME = 'data-cache-v1';
+
+
 // CODELAB: Update cache names any time any of the cached files change.
 const FILES_TO_CACHE = [
   '/offline.html',
@@ -36,3 +40,13 @@ evt.respondWith(
               });
         })
 );
+
+// CODELAB: Add list of files to cache here.
+const FILES_TO_CACHE = [
+  '/home.html',
+  '/mobile-about.css',
+  '/manifest.json',
+  '/plogo144.png',
+  '/plogo180.png',
+
+];
