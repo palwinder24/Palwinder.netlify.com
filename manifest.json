@@ -2,17 +2,9 @@
     "name": "Palwinder Singh",
     "short_name": "Palwinder",
     "display": "standalone",
-         "start_url": "/home.html",
+    "start_url": "/home.html",
     "description": "A simply personal website and blog.",
     "background_color": "white",
-    "icons": [
-      {
-        "src": "plogo.png",
-        "sizes": "180x180",
-        "type": "image/png"
-      }
-    ],
-
     "icons": [
       {
         "src": "plogo144.png",
