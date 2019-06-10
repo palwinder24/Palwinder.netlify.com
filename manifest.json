@@ -7,9 +7,9 @@
     "background_color": "white",
     "icons": [
       {
-        "src": "plogo.jpg",
+        "src": "plogo.png",
         "sizes": "180x180",
-        "type": "image/jpg"
+        "type": "image/png"
       }
     ]
   }
