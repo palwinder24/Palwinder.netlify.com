@@ -4,6 +4,10 @@
       <head>
         <title>Palwinder Singh</title>
 
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <link rel="manifest" href="manifest.json" />
+
+
         <link type="text/css" href="about.css" rel="stylesheet">
         <link type="text/css" href="mobile-about.css" rel="stylesheet">
       </head>
@@ -49,6 +53,9 @@
             </div>
 
               <script type="text/javascript" language="javascript">
+              navigator.serviceWorker && navigator.serviceWorker.register('./sw.js').then(function(registration) {
+  console.log('Excellent, registered with scope: ', registration.scope);
+});
               function loadabout(){
                 document.getElementById("homepage").style.visibility = "hidden";
                 document.getElementById("aboutpage").style.visibility="visible";
