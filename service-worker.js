@@ -9,10 +9,6 @@ const CACHE_NAME = 'static-cache-v2';
 const DATA_CACHE_NAME = 'data-cache-v1';
 
 
-// CODELAB: Update cache names any time any of the cached files change.
-const FILES_TO_CACHE = [
-  '/offline.html',
-];
 
 // CODELAB: Remove previous cached data from disk.
 evt.waitUntil(
@@ -26,7 +22,11 @@ evt.waitUntil(
   })
 );
 
+// CODELAB: Add fetch event handler here.
+if (evt.request.mode !== 'navigate') {
+  // Not a page navigation, bail.
 
+}
 evt.respondWith(
     fetch(evt.request)
         .catch(() => {
