@@ -1,0 +1,121 @@
+@media only screen 
+  and (min-device-width: 100px) 
+  and (max-device-width: 900px) 
+
+{
+    #homepage{
+        z-index:0;
+        position: relative;
+        margin-top:34px;
+    }
+.hr{
+    position: relative;
+    z-index: 4;
+    margin-top: 22%;
+    margin-left: 5%;
+    overflow: hidden;
+}
+#heading_text{
+   
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    margin-top: 0px;
+    
+    padding-top:30px;
+    padding-left:30px;
+   
+    background: white;
+    /* border-radius: 246px; */
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 37px;
+    color: blue;
+    right: 0;
+    top: 0;
+   
+}
+.navbar{
+    z-index: 3;
+    overflow: hidden;
+    background-color: rgb(42, 91, 165);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+ 
+
+}
+.navbtn{
+ 
+    padding: 17px;
+    border-radius: 86px;
+    border-width: 0px;
+    font-size: 18px;
+}
+.heroimg{
+    align-items: center;
+          width:40%;
+          height:20%;
+          border-radius:50%;
+          margin-top:10%;
+         left:20%;
+
+         
+}
+
+.hero_text{
+    margin-left: 56%;
+margin-right: 24%;
+font-size: 21px;
+color: white;
+background: blue;
+padding: 10px;
+padding-left: 0;
+padding-right: 0;
+margin-top: -13%;
+z-index: 1;
+position: relative;
+border-radius: 100px;
+text-align: center;
+}
+
+.hero_name{
+    margin: 19%;
+    font-size: 20px;
+    color: white;
+    background: blue;
+    padding: 13px;
+    margin-top: 0%;
+    z-index: 1;
+    position: relative;
+    border-radius: 100px;
+    text-align: center;
+
+}
+.hero_card{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    background: white;
+    padding: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1;
+    position: relative;
+    border-radius: 70px;
+    margin: 4%;
+    margin-top: -10%;
+    height: 800px;
+    box-shadow: 5px 5px 5rem 5px black;
+}
+    body{
+        transition: 0.5s;
+        margin:0;
+    }
+}
