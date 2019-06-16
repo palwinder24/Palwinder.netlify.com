@@ -6,58 +6,86 @@
     #homepage{
         z-index:0;
         position: relative;
-        margin-top:34px;
+        margin-top:10px;
+        text-shadow:1px 1px 1rem #585858;
     }
-.hr{
-    position: relative;
-    z-index: 4;
-    margin-top: 22%;
-    margin-left: 5%;
-    overflow: hidden;
-}
-#heading_text{
+    #hr{
+        position: relative;
+        z-index: 4;
+        margin-top: 22%;
+        margin-left: 5%;
+        margin-right:5%;
+        overflow: hidden;
+        color:white;
+    }
+    #heading_text{
    
-    position: fixed;
-    z-index: 3;
-    left: 0;
-    margin-top: 0px;
-    
-    padding-top:30px;
-    padding-left:30px;
-   
-    background: white;
-    /* border-radius: 246px; */
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 37px;
-    color: blue;
-    right: 0;
-    top: 0;
-   
-}
-.navbar{
-    z-index: 3;
-    overflow: hidden;
-    background-color: rgb(42, 91, 165);
-    color: white;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    padding: 20px;
-    align-items: center;
-    text-align: center;
- 
+        position: fixed;
+        z-index: 3;
+        left: 0;
+        margin-top: 0px;
+        
+        padding-top:30px;
+        padding-left:30px;
+       
+        background: #292929;
+        /* border-radius: 246px; */
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 37px;
+        color: #4201ff;
+        right: 0;
+        top: 0;
+       
+    }
 
-}
-.navbtn{
+    .navbar{
+        z-index: 3;
+        overflow: hidden;
+        background-color: #292929;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+     
     
-    padding: 18px;
-    border-radius: 86px;
-    border-width: 0px;
-    font-size: 18px;
-}
+    }
+
+    #navbtn1{
+        color:rgb(202, 202, 202);
+        padding: 17px;
+        text-shadow: black;
+        border-width: 0px;
+        font-size: 20px;
+    }
+    #navbtn2{
+        color:rgb(202, 202, 202);
+        padding: 17px;
+        text-shadow: black;
+        border-width: 0px;
+        font-size: 20px;
+    }
+    #navbtn3{
+        color:rgb(202, 202, 202);
+        padding: 17px;
+        text-shadow: black;
+        border-width: 0px;
+        font-size: 20px;
+       
+    }
+    #navbtn4{
+        color:rgb(202, 202, 202);
+       padding: 17px;
+       text-shadow: black;
+       border-width: 0px;
+       font-size: 20px;
+   }
 .heroimg{
     align-items: center;
           width:40%;
@@ -74,7 +102,7 @@
 margin-right: 24%;
 font-size: 21px;
 color: white;
-background: blue;
+background: #4201ff;
 padding: 10px;
 padding-left: 0;
 padding-right: 0;
@@ -89,7 +117,7 @@ text-align: center;
     margin: 19%;
     font-size: 20px;
     color: white;
-    background: blue;
+    background: #4201ff;
     padding: 13px;
     margin-top: 0%;
     z-index: 1;
@@ -99,23 +127,63 @@ text-align: center;
 
 }
 .hero_card{
+    font-weight: 700;
     text-align: center;
-    font-size: 18px;
-    color: black;
-    background: white;
-    padding: 40px;
+    font-size: 22px;
+    color: white;
+    background: #4201ff;
+    padding: 2px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 25px;
     z-index: 1;
     position: relative;
-    border-radius: 70px;
+    border-radius: 22px;
     margin: 4%;
-    margin-top: -10%;
-    height: 800px;
+    margin-top: -12%;
     box-shadow: 5px 5px 5rem 5px black;
 }
-    body{
-        transition: 0.5s;
-        margin:0;
-    }
+.social_btn{
+    font-weight: 700;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    background: #4201ff;
+    padding: 20px;
+   
+    padding-bottom: 25px;
+    z-index: 1;
+    position: relative;
+    border-radius: 22px;
+    margin-left:4%;
+    margin-right:4%;
+    box-shadow: 5px 5px 5rem 5px black;
+}
+.social_btn a{
+
+    text-align: center;
+    font-size: 22px;
+    color: white;
+   
+   
+   
+    z-index: 1;
+    position: relative;
+    border-radius: 22px;
+   
+    box-shadow: 5px 5px 5rem 5px black;
+}
+.social_text{
+    margin-left:6%;
+    margin-top:10%;
+    font-size:30px;
+}
+body{
+    transition: 0.9s;
+    margin:0;
+    -webkit-font-smoothing: antialiased;
+    background: #292929;
+    color:white;
+    text-shadow:1px 1px 0.5rem 1px white;
+}
 }
