@@ -1,5 +1,4 @@
-
-
+var widths=screen.width;
 var homepage = document.getElementById("homepage");
 var userpage = document.getElementById("userpage");
 var blogpage = document.getElementById("blogpage");
@@ -10,17 +9,36 @@ var btn2 = document.getElementById("navbtn2").style;
 var btn3 = document.getElementById("navbtn3").style;
 var btn4 = document.getElementById("navbtn4").style;
 var clor = "rgb(202, 202, 202)";
+var img=document.getElementById("heroimg");
+var wid=screen.width;
+if(wid<901)
+{
+  img.src= "img/hero.jpg";
+}
+else{
+  img.src= "img/plogo144.png";
+}
+
+console.log(widths)
 
 function loadhome() {
   userpage.style.visibility = "hidden";
   blogpage.style.visibility = "hidden";
   resumepage.style.visibility = "hidden";
   homepage.style.visibility = "visible";
-  heading_text.innerHTML = "Home";
   btn1.color = "#4201ff";
   btn2.color = clor;
   btn3.color = clor;
   btn4.color = clor;
+  var wid=screen.width;
+  if(wid<901)
+{
+  heading_text.innerHTML = "Home";
+}
+else{
+  heading_text.style.visibility= "hidden";
+}
+ 
 }
 
 function loadblog() {
@@ -28,7 +46,14 @@ function loadblog() {
   userpage.style.visibility = "hidden";
   resumepage.style.visibility = "hidden";
   blogpage.style.visibility = "visible";
-  heading_text.innerHTML = "Blog";
+  var wid=screen.width;
+  if(wid<901)
+{
+  heading_text.innerHTML = "blog";
+}
+else{
+  heading_text.style.visibility= "hidden";
+}
   btn2.color = "#4201ff";
   btn1.color = clor;
   btn3.color = clor;
@@ -40,7 +65,14 @@ function loadresume() {
   userpage.style.visibility = "hidden";
   blogpage.style.visibility = "hidden";
   resumepage.style.visibility = "visible";
+  var wid=screen.width;
+  if(wid<901)
+{
   heading_text.innerHTML = "Resume";
+}
+else{
+  heading_text.style.visibility= "hidden";
+}
   btn3.color = "#4201ff";
   btn2.color = clor;
   btn1.color = clor;
@@ -52,7 +84,14 @@ function loaduser() {
   blogpage.style.visibility = "hidden";
   resumepage.style.visibility = "hidden";
   userpage.style.visibility = "visible";
+  var wid=screen.width;
+  if(wid<901)
+{
   heading_text.innerHTML = "User";
+}
+else{
+  heading_text.style.visibility= "hidden";
+}
   btn4.color = "#4201ff";
   btn2.color = clor;
   btn3.color = clor;
@@ -87,3 +126,4 @@ function scrollFunction() {
 
   }
 }
+

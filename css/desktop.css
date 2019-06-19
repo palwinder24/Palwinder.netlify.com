@@ -1,12 +1,12 @@
 @media only screen 
   and (min-device-width: 901px) 
-  and (max-device-width: 1300px) 
+  and (max-device-width: 2000px) 
 
 {
 #homepage{
     z-index:0;
     position: relative;
-    margin-top:10px;
+     margin-top: 21%;
     text-shadow:1px 1px 1rem #585858;
 }
 #userpage{
@@ -16,12 +16,8 @@
     text-shadow:1px 1px 1rem #585858;
 }
 #hr{
-    position: relative;
-    margin-top: 22%;
-    margin-left: 5%;
-    margin-right:5%;
-    overflow: hidden;
-    color:white;
+    visibility: hidden;
+    display:none;
 }
 
 
@@ -39,6 +35,8 @@
     text-align: right;
     font-weight: bold;
     border-radius: 7px;
+    box-shadow: 0px 0px 13rem 1px #00000052;
+
 }
 
 #navbtn1{
@@ -70,31 +68,27 @@
    border-width: 0px;
    font-size: 20px;
 }
-.heroimg{
-align-items: center;
-      width:40%;
-      height:20%;
-      border-radius:50%;
-      margin-top:10%;
-     left:20%;
-
-     
+#heroimg{
+    width: 5%;
+    border-radius: 56%;
+    top: 2%;
+    transform: translateX(23%);
+    position: fixed;
+    z-index:4;
+    box-shadow: 0px 0px 13rem 1px #00000052;
 }
 
 .hero_text{
-margin-left: 56%;
-margin-right: 24%;
-font-size: 21px;
-color: white;
-background: #4201ff;
-padding: 10px;
-padding-left: 0;
-padding-right: 0;
-margin-top: -13%;
-z-index: 1;
-position: relative;
-border-radius: 100px;
-text-align: center;
+    font-size: 40px;
+    color: white;
+    background: #4201ff;
+    padding: 10px;
+    z-index: 0;
+    position: relative;
+    text-align: left;
+    margin-top: -12%;
+    top: auto;
+    height: 420px;
 }
 
 .hero_name{
@@ -125,23 +119,38 @@ position: relative;
 border-radius: 22px;
 margin: 4%;
 margin-top: -12%;
-box-shadow: 5px 5px 5rem 5px black;
+box-shadow: 0px 0px 13rem 1px #00000052;
 }
+
+
+
+
+
+
+
 .social_btn{
+    bottom: 1%;
+    position:fixed;
 font-weight: 700;
-text-align: center;
+text-align: right;
+align-content: right;
 font-size: 22px;
 color: white;
 background: #4201ff;
 padding: 20px;
+z-index: 4;
 
-padding-bottom: 25px;
-z-index: 1;
-position: relative;
-border-radius: 22px;
-margin-left:4%;
-margin-right:4%;
-box-shadow: 5px 5px 5rem 5px black;
+overflow: hidden;
+position: fixed;
+
+right: -5px;
+width: auto;
+
+align-items: right;
+text-align: right;
+font-weight: bold;
+border-radius: 7px;
+box-shadow: 0px 0px 13rem 1px #00000052;
 }
 .social_btn a{
 
@@ -166,8 +175,8 @@ body{
 transition: 0.3s;
 margin:0;
 -webkit-font-smoothing: antialiased;
-background: #292929;
-color:white;
+color: #292929;
+background:white;
 text-shadow:1px 1px 0.5rem 1px white;
 }
 }

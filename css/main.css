@@ -91,7 +91,7 @@
        border-width: 0px;
        font-size: 20px;
    }
-.heroimg{
+#heroimg{
     align-items: center;
           width:40%;
           height:20%;
@@ -190,5 +190,8 @@ body{
     background: #292929;
     color:white;
     text-shadow:1px 1px 0.5rem 1px white;
+}
+.hero_center{
+    text-align:center;
 }
 }
