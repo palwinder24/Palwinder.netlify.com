@@ -1,66 +1,174 @@
-/* ----------- Non-Retina Screens -----------*/
-@media screen 
-  and (min-device-width: 1000px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+@media only screen 
+  and (min-device-width: 901px) 
+  and (max-device-width: 1300px) 
 
-
-
-
-
-body{
-    background-color: black;
-}
-a{
-    color:black;
-    text-decoration:none;
-}
-#hero{
-  
-    text-align: center;
-   
-}
-#nav{
-    border-radius:50px;
-    text-align:center;
-    PADDING:2%;
-    COLOR:Black;
-    background:White;
-    transition:ease-in-out;
-
-   
-}
-#nav:hover{
-    PADDING:2%;
-    COLOR:Black;
-    box-shadow:1px 1px 20rem 0.1px black;
-}
-#heroimg{
-   
-    width:25%;
-    height:20%;
-    border-radius:50%;
-    margin-top:8%;
-    box-shadow:1px 1px 20rem 0.1px black;
-   z-index:-1;
-}
-
-#hero-text{
-    margin-left:48%;
-    margin-right:25%;
-   
-    size:27px;
-    color:white;
-    background:blue;
-    padding:10px;
-    margin-top:-5%;
-    
-    z-index:1;
+{
+#homepage{
+    z-index:0;
     position: relative;
-    border-radius:100px;
-
-    box-shadow: 5px 5px 5rem 5px black;
+    margin-top:10px;
+    text-shadow:1px 1px 1rem #585858;
+}
+#userpage{
+    z-index:0;
+    position: relative;
+    margin-top:-140%;
+    text-shadow:1px 1px 1rem #585858;
+}
+#hr{
+    position: relative;
+    margin-top: 22%;
+    margin-left: 5%;
+    margin-right:5%;
+    overflow: hidden;
+    color:white;
 }
 
 
-  }
+.navbar{
+    z-index: 4;
+    overflow: hidden;
+    background-color: white;
+    color: white;
+    position: fixed;
+    top: 17px;
+    right: -5px;
+    width: 33%;
+    padding: 13px;
+    align-items: right;
+    text-align: right;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+#navbtn1{
+    color:rgb(202, 202, 202);
+    padding: 17px;
+    text-shadow: black;
+    border-width: 0px;
+    font-size: 20px;
+}
+#navbtn2{
+    color:rgb(202, 202, 202);
+    padding: 17px;
+    text-shadow: black;
+    border-width: 0px;
+    font-size: 20px;
+}
+#navbtn3{
+    color:rgb(202, 202, 202);
+    padding: 17px;
+    text-shadow: black;
+    border-width: 0px;
+    font-size: 20px;
+   
+}
+#navbtn4{
+    color:rgb(202, 202, 202);
+   padding: 17px;
+   text-shadow: black;
+   border-width: 0px;
+   font-size: 20px;
+}
+.heroimg{
+align-items: center;
+      width:40%;
+      height:20%;
+      border-radius:50%;
+      margin-top:10%;
+     left:20%;
+
+     
+}
+
+.hero_text{
+margin-left: 56%;
+margin-right: 24%;
+font-size: 21px;
+color: white;
+background: #4201ff;
+padding: 10px;
+padding-left: 0;
+padding-right: 0;
+margin-top: -13%;
+z-index: 1;
+position: relative;
+border-radius: 100px;
+text-align: center;
+}
+
+.hero_name{
+margin: 19%;
+font-size: 20px;
+color: white;
+background: #4201ff;
+padding: 13px;
+margin-top: 0%;
+z-index: 1;
+position: relative;
+border-radius: 100px;
+text-align: center;
+
+}
+.hero_card{
+font-weight: 700;
+text-align: center;
+font-size: 22px;
+color: white;
+background: #4201ff;
+padding: 2px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 25px;
+z-index: 1;
+position: relative;
+border-radius: 22px;
+margin: 4%;
+margin-top: -12%;
+box-shadow: 5px 5px 5rem 5px black;
+}
+.social_btn{
+font-weight: 700;
+text-align: center;
+font-size: 22px;
+color: white;
+background: #4201ff;
+padding: 20px;
+
+padding-bottom: 25px;
+z-index: 1;
+position: relative;
+border-radius: 22px;
+margin-left:4%;
+margin-right:4%;
+box-shadow: 5px 5px 5rem 5px black;
+}
+.social_btn a{
+
+text-align: center;
+font-size: 22px;
+color: white;
+
+
+
+z-index: 1;
+position: relative;
+border-radius: 22px;
+
+box-shadow: 5px 5px 5rem 5px black;
+}
+.social_text{
+margin-left:6%;
+margin-top:10%;
+font-size:30px;
+}
+body{
+transition: 0.3s;
+margin:0;
+-webkit-font-smoothing: antialiased;
+background: #292929;
+color:white;
+text-shadow:1px 1px 0.5rem 1px white;
+}
+}
+  

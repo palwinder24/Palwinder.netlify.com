@@ -9,16 +9,21 @@
         margin-top:10px;
         text-shadow:1px 1px 1rem #585858;
     }
+    #userpage{
+        z-index:0;
+        position: relative;
+        margin-top:-140%;
+        text-shadow:1px 1px 1rem #585858;
+    }
     #hr{
         position: relative;
-       
         margin-top: 22%;
         margin-left: 5%;
         margin-right:5%;
         overflow: hidden;
         color:white;
     }
-    #heading_text{
+#heading_text{
    
         position: fixed;
         z-index: 3;
@@ -37,7 +42,7 @@
         right: 0;
         top: 0;
        
-    }
+    }    
 
     .navbar{
         z-index: 3;

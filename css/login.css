@@ -1,0 +1,8 @@
+.scard{
+   text-align: center;
+    align-items: center;
+    position:relative;
+    z-index:1;
+    color: whitesmoke;
+    margin:5%;
+}
