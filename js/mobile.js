@@ -97,6 +97,9 @@ else{
   btn3.color = clor;
   btn1.color = clor;
 }
+if(wid<901)
+{
+ 
 
 // When the user scrolls down 50px from the top of the document, resize the header's font size
 
@@ -126,4 +129,4 @@ function scrollFunction() {
 
   }
 }
-
+}

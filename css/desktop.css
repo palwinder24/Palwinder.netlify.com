@@ -3,21 +3,80 @@
   and (max-device-width: 2000px) 
 
 {
+    
+ #main_card{
+     width:auto;
+     margin-left:4%;
+     margin-right:4%;
+     z-index:4;
+     padding:3%;
+     margin-top:15%;
+     background: rgb(216, 216, 216);
+     border-radius:10px;
+     
+transition-duration: 0.2s;
+ 
+
+    }
+
+
+    #sub_card .t_h{
+        font-size:24px;
+    }
+
+   
+    #sub_card{
+          margin-top:-15%;
+          margin-left:40%;
+          width:50%;
+    } 
+    #sub_card p{
+        font-size:20px;
+        text-align:center;padding-left:5px;
+        padding-right:5px;
+  } 
+  #sub_card td{
+      background: pink;
+      border-radius:5px;
+      color:white;
+      box-shadow: 0px 0px 2rem 1px #00000052;
+  }
+#card1{
+    margin-top:2%;
+   
+}
+
+
+    .skills{
+        
+        font-size: 43px;
+       padding-left:10%;
+       top:0;
+       display:inline;
+       position:relative;
+
+
+    }
+    .web_devloper{
+        font-size: 23;
+        padding-left: 1%;
+        margin-left: 20%;
+        font-size: large;
+        margin-top: 8%;
+    }
 #homepage{
-    z-index:0;
+    z-index: 0;
     position: relative;
-     margin-top: 21%;
-    text-shadow:1px 1px 1rem #585858;
+    /* margin-top: 21%; */
+    
+    top: 0;
+    margin-top:100px;
 }
 #userpage{
     z-index:0;
     position: relative;
     margin-top:-140%;
     text-shadow:1px 1px 1rem #585858;
-}
-#hr{
-    visibility: hidden;
-    display:none;
 }
 
 
@@ -77,60 +136,20 @@
     z-index:4;
     box-shadow: 0px 0px 13rem 1px #00000052;
 }
-
-.hero_text{
-    font-size: 40px;
-    color: white;
-    background: #4201ff;
-    padding: 10px;
-    z-index: 0;
-    position: relative;
-    text-align: left;
-    margin-top: -12%;
-    top: auto;
-    height: 420px;
+#landing_text{
+    padding:5%;
+    background: #292929;
+    color:whitesmoke;
+    top:0;
+    margin-top:0;
+ 
 }
-
-.hero_name{
-margin: 19%;
-font-size: 20px;
-color: white;
-background: #4201ff;
-padding: 13px;
-margin-top: 0%;
-z-index: 1;
-position: relative;
-border-radius: 100px;
-text-align: center;
-
-}
-.hero_card{
-font-weight: 700;
-text-align: center;
-font-size: 22px;
-color: white;
-background: #4201ff;
-padding: 2px;
-padding-left: 20px;
-padding-right: 20px;
-padding-bottom: 25px;
-z-index: 1;
-position: relative;
-border-radius: 22px;
-margin: 4%;
-margin-top: -12%;
-box-shadow: 0px 0px 13rem 1px #00000052;
-}
-
-
-
-
 
 
 
 .social_btn{
-    bottom: 1%;
-    position:fixed;
+bottom: 1%;
+position:fixed;
 font-weight: 700;
 text-align: right;
 align-content: right;
@@ -166,18 +185,53 @@ border-radius: 22px;
 
 box-shadow: 5px 5px 5rem 5px black;
 }
-.social_text{
-margin-left:6%;
-margin-top:10%;
-font-size:30px;
-}
+
 body{
 transition: 0.3s;
 margin:0;
+top:0;
+left:0;
 -webkit-font-smoothing: antialiased;
 color: #292929;
 background:white;
-text-shadow:1px 1px 0.5rem 1px white;
+text-shadow:0px 0px 0.5rem 0.5px white;
+
+}
+.hero_text{
+    visibility: hidden;
+    display:none;
+
+  
+
+    
+}
+.social_text{
+    visibility: hidden;
+    display:none;
+}
+
+.hero_name{
+    
+        visibility: hidden;
+        display:none;
+    
+
+
+}
+.hero_card{
+    visibility: hidden;
+    display:none;
+
+
+
+
+
+}
+
+#hr{
+    visibility: hidden;
+    display:none;
 }
 }
+
   
