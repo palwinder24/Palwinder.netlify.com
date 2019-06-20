@@ -3,7 +3,13 @@
   and (max-device-width: 900px) 
 
 {
-    .landing_text{
+    .blog_homepage{
+        display:none;
+        visibility: hidden;
+    }
+    #main_card{
+
+    
         display:none;
         visibility: hidden;
         
@@ -65,6 +71,10 @@
         font-weight: bold;
      
     
+    }
+    #landing_text{
+        visibility: hidden;
+        display:none;
     }
 
     #navbtn1{
