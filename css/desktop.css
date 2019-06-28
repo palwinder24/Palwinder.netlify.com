@@ -1,240 +1,183 @@
-@media only screen 
-  and (min-device-width: 901px) 
-  and (max-device-width: 2000px) 
-
-{
-   
-    
- #main_card{
-     width:auto;
-     margin-left:4%;
-     margin-right:4%;
-     z-index:4;
-     padding:3%;
-     margin-top:15%;
-     background:rgb(42, 97, 160);
-     border-radius:10px;
-     color:WHITE;
-     
-transition-duration: 0.2s;
- 
-
-    }
-
-
-    #sub_card .t_h{
-        font-size:24px;
-    }
-
-   
-    #sub_card{
-          margin-top:-15%;
-          margin-left:40%;
-          width:50%;
-    } 
-    #sub_card p{
-        font-size:20px;
-        text-align:center;padding-left:5px;
-        padding-right:5px;
-  } 
-  #sub_card td{
-      background: pink;
-      border-radius:5px;
-      color:white;
-      box-shadow: 0px 0px 2rem 1px #00000052;
-  }
-#card1{
-    margin-top:2%;
-   
-}
-
-
-    .skills{
-        
-        font-size: 43px;
-       padding-left:10%;
-       top:0;
-       display:inline;
-       position:relative;
-
-
-    }
-    .web_devloper{
-        font-size: 23;
-        padding-left: 1%;
-        margin-left: 20%;
-        font-size: large;
-        margin-top: 8%;
-    }
-#homepage{
-    z-index: 0;
-    position: relative;
-    /* margin-top: 21%; */
-    
-    top: 0;
-    margin-top:100px;
-    font-family: 'Mali', cursive;
-    }
-#userpage{
-    z-index:0;
-    position: relative;
-    margin-top:-140%;
-    text-shadow:1px 1px 1rem #585858;
-}
-
-
-.navbar{
-    z-index: 4;
-    overflow: hidden;
-    background-color: white;
-    color: white;
-    position: fixed;
-    top: 17px;
-    right: -5px;
-    width: auto;
-    padding: 13px;
-    align-items: right;
-    text-align: right;
-    font-weight: bold;
-    border-radius: 7px;
-    box-shadow: 0px 0px 13rem 1px #00000052;
-
-}
-
-#navbtn1{
-    color:rgb(202, 202, 202);
-    padding: 17px;
-    text-shadow: black;
-    border-width: 0px;
-    font-size: 20px;
-}
-#navbtn2{
-    color:rgb(202, 202, 202);
-    padding: 17px;
-    text-shadow: black;
-    border-width: 0px;
-    font-size: 20px;
-}
-#navbtn3{
-    color:rgb(202, 202, 202);
-    padding: 17px;
-    text-shadow: black;
-    border-width: 0px;
-    font-size: 20px;
-   
-}
-#navbtn4{
-    color:rgb(202, 202, 202);
-   padding: 17px;
-   text-shadow: black;
-   border-width: 0px;
-   font-size: 20px;
-}
-#heroimg{
-    width: 5%;
-    border-radius: 56%;
-    top: 2%;
-    transform: translateX(23%);
-    position: fixed;
-    z-index:4;
-    box-shadow: 0px 0px 13rem 1px #00000052;
-}
-#landing_text{
-    padding:5%;
-    background: #292929;
-    color:whitesmoke;
-    top:0;
-    margin-top:0;
- 
-}
-
-
-
-.social_btn{
-bottom: 1%;
-position:fixed;
-
-text-align: right;
-align-content: right;
-font-size: 22px;
-color: white;
-background: #4201ff;
-padding: 20px;
-z-index: 4;
-
-overflow: hidden;
-position: fixed;
-
-right: -5px;
-width: auto;
-
-align-items: right;
-text-align: right;
-
-border-radius: 7px;
-box-shadow: 0px 0px 13rem 1px #00000052;
-}
-.social_btn a{
-
-text-align: center;
-font-size: 22px;
-color: white;
-
-
-
-z-index: 1;
-position: relative;
-border-radius: 22px;
-
-box-shadow: 5px 5px 5rem 5px black;
-}
-
-body{
-transition: 0.3s;
-margin:0;
-top:0;
-left:0;
--webkit-font-smoothing: antialiased;
-color: #292929;
-background:white;
-text-shadow:0px 0px 0.5rem 0.5px white;
-font-family: 'Mali', cursive;
-}
-.hero_text{
-    visibility: hidden;
-    display:none;
-
-  
-
-    
-}
-.social_text{
-    visibility: hidden;
-    display:none;
-}
-
-.hero_name{
-    
-        visibility: hidden;
-        display:none;
-    
-
-
-}
-.hero_card{
-    visibility: hidden;
-    display:none;
-
-
-
-
-
-}
-
-#hr{
-    visibility: hidden;
-    display:none;
-}
-}
-
-  
+        @media only screen and (min-device-width: 901px) and (max-device-width: 2000px) {
+            #main_card {
+                width: auto;
+                margin-left: 4%;
+                margin-right: 4%;
+                z-index: 4;
+                padding: 3%;
+                margin-top: 15%;
+                background: rgb(42, 97, 160);
+                border-radius: 10px;
+                color: WHITE;
+                transition-duration: 0.2s;
+            }
+            #sub_card .t_h {
+                font-size: 24px;
+            }
+            #sub_card {
+                margin-top: -15%;
+                margin-left: 40%;
+                width: 50%;
+            }
+            #sub_card p {
+                font-size: 20px;
+                text-align: center;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            #sub_card td {
+                background: pink;
+                border-radius: 5px;
+                color: white;
+                box-shadow: 0px 0px 2rem 1px #00000052;
+            }
+            #card1 {
+                margin-top: 2%;
+            }
+            .skills {
+                font-size: 43px;
+                padding-left: 10%;
+                top: 0;
+                display: inline;
+                position: relative;
+            }
+            .web_devloper {
+                font-size: 23;
+                padding-left: 1%;
+                margin-left: 20%;
+                font-size: large;
+                margin-top: 8%;
+            }
+            #homepage {
+                z-index: 0;
+                position: relative;
+                /* margin-top: 21%; */
+                top: 0;
+                margin-top: 100px;
+                font-family: 'Mali', cursive;
+            }
+            #userpage {
+                z-index: 0;
+                position: relative;
+                margin-top: -140%;
+                text-shadow: 1px 1px 1rem #585858;
+            }
+            .navbar {
+                z-index: 4;
+                overflow: hidden;
+                background-color: white;
+                color: white;
+                position: fixed;
+                top: 17px;
+                right: -5px;
+                width: auto;
+                padding: 13px;
+                align-items: right;
+                text-align: right;
+                font-weight: bold;
+                border-radius: 7px;
+                box-shadow: 0px 0px 13rem 1px #00000052;
+            }
+            #navbtn1 {
+                color: rgb(202, 202, 202);
+                padding: 17px;
+                text-shadow: black;
+                border-width: 0px;
+                font-size: 20px;
+            }
+            #navbtn2 {
+                color: rgb(202, 202, 202);
+                padding: 17px;
+                text-shadow: black;
+                border-width: 0px;
+                font-size: 20px;
+            }
+            #navbtn3 {
+                color: rgb(202, 202, 202);
+                padding: 17px;
+                text-shadow: black;
+                border-width: 0px;
+                font-size: 20px;
+            }
+            #navbtn4 {
+                color: rgb(202, 202, 202);
+                padding: 17px;
+                text-shadow: black;
+                border-width: 0px;
+                font-size: 20px;
+            }
+            #heroimg {
+                width: 5%;
+                border-radius: 56%;
+                top: 2%;
+                transform: translateX(23%);
+                position: fixed;
+                z-index: 4;
+                box-shadow: 0px 0px 13rem 1px #00000052;
+            }
+            #landing_text {
+                padding: 5%;
+                background: #292929;
+                color: whitesmoke;
+                top: 0;
+                margin-top: 0;
+            }
+            .social_btn {
+                bottom: 1%;
+                position: fixed;
+                text-align: right;
+                align-content: right;
+                font-size: 22px;
+                color: white;
+                background: #4201ff;
+                padding: 20px;
+                z-index: 4;
+                overflow: hidden;
+                position: fixed;
+                right: -5px;
+                width: auto;
+                align-items: right;
+                text-align: right;
+                border-radius: 7px;
+                box-shadow: 0px 0px 13rem 1px #00000052;
+            }
+            .social_btn a {
+                text-align: center;
+                font-size: 22px;
+                color: white;
+                z-index: 1;
+                position: relative;
+                border-radius: 22px;
+                box-shadow: 5px 5px 5rem 5px black;
+            }
+            body {
+                transition: 0.3s;
+                margin: 0;
+                top: 0;
+                left: 0;
+                -webkit-font-smoothing: antialiased;
+                color: #292929;
+                background: white;
+                font-family: 'Mali', cursive;
+            }
+            .hero_text {
+                visibility: hidden;
+                display: none;
+            }
+            .social_text {
+                visibility: hidden;
+                display: none;
+            }
+            .hero_name {
+                visibility: hidden;
+                display: none;
+            }
+            .hero_card {
+                visibility: hidden;
+                display: none;
+            }
+            #hr {
+                visibility: hidden;
+                display: none;
+            }
+        }
