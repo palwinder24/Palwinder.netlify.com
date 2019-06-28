@@ -2,7 +2,7 @@
     "name": "Palwinder Singh",
     "short_name": "Palwinder",
     "display": "standalone",
-    "start_url": "Land.html",
+    "start_url": "/load.html",
     "description": "A simply personal website and blog.",
     "background_color": "white",
     "icons": [{
