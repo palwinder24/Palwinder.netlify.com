@@ -7,7 +7,6 @@
     <!-- CODELAB: Add iOS meta tags and icons -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" name="viewport" content="Width=device-width, initial-scale=1.0">
-
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Palwinder">
@@ -21,9 +20,14 @@
     <!--desktop css -->
     <link type="text/css" href="css/desktop.css" rel="stylesheet">
     <!--mobile css -->
+
     <link type="text/css" href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet">
     <link href="css/fluent.css" rel="stylesheet" type="text/css">
+
+    <!--Bootstrap css-->
+
+
 </head>
 
 <body onload="loadhome()" onscroll="hide()">
@@ -35,7 +39,7 @@
 
     <!-- homepage tag-->
 
-    <div id="homepage">
+    <div id="homepage" class="container-fluid">
 
         <div class="hero_center">
             <img src="img/hero.jpg" id="heroimg">
@@ -200,10 +204,10 @@
 
     </div>
     <!-- fixed navigation bar  -->
-    <div class="navbar">
+    <div class="navbar" id="navbar">
         <!--navigation content -->
         <center>
-            <a align="left" onclick="loadhome()" id="navbtn1">Home</a>
+            <a align="left" onclick="loadhome()" id="navbtn1" class="active">Home</a>
 
             <a align="center" onclick="loadblog()" id="navbtn2">Blog</a>
             <a align="center" onclick="loadresume()" id="navbtn3">Resume</a>
@@ -214,9 +218,7 @@
     </script>
 
 
-    <script src="js/jquery-3.3.1.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
