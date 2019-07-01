@@ -17,3 +17,25 @@
 .margin-auto {
     margin: auto;
 }
+
+.bg_white {
+    background: white;
+    color: black;
+}
+
+.bg_black {
+    background: black;
+    color: White;
+}
+
+.display_block {
+    display: block;
+}
+
+.overflow_hidden {
+    overflow: hidden;
+}
+
+.text_bold {
+    font-size: bolder;
+}

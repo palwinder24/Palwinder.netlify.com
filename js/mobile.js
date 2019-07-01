@@ -30,7 +30,7 @@ function loadhome() {
     btn4.color = clor;
     var wid = screen.width;
     if (wid < 901) {
-        heading_text.innerHTML = "Home";
+        heading_text.innerHTML = "About Me";
     } else {
         heading_text.style.visibility = "hidden";
     }
@@ -44,7 +44,7 @@ function loadblog() {
     blogpage.style.visibility = "visible";
     var wid = screen.width;
     if (wid < 901) {
-        heading_text.innerHTML = "blog";
+        heading_text.innerHTML = "Blog";
     } else {
         heading_text.style.visibility = "hidden";
     }
@@ -61,7 +61,7 @@ function loadresume() {
     resumepage.style.visibility = "visible";
     var wid = screen.width;
     if (wid < 901) {
-        heading_text.innerHTML = "Resume";
+        heading_text.innerHTML = "Resume/C.V";
     } else {
         heading_text.style.visibility = "hidden";
     }
@@ -79,7 +79,7 @@ function loaduser() {
     userpage.style.visibility = "visible";
     var wid = screen.width;
     if (wid < 901) {
-        heading_text.innerHTML = "User";
+        heading_text.innerHTML = "Contact";
     } else {
         heading_text.style.visibility = "hidden";
     }
