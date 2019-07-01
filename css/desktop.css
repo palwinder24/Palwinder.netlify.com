@@ -11,6 +11,9 @@
                 color: WHITE;
                 transition-duration: 0.2s;
             }
+            #blogpage {
+                top: 0;
+            }
             #sub_card .t_h {
                 font-size: 24px;
             }

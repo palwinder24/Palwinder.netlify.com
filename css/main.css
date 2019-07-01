@@ -10,7 +10,7 @@
     #homepage {
         z-index: 0;
         position: relative;
-        margin-top: 10px;
+        margin-top: 15%;
         text-shadow: 1px 1px 1rem #585858;
         text-align: justify;
     }
@@ -129,10 +129,10 @@
     .hero_card {
         font-weight: 700;
         text-align: center;
-        font-size: 22px;
+        font-size: 18px;
         color: white;
         background: #4201ff;
-        padding: 2px;
+        padding: 15px;
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 25px;
