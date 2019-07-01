@@ -12,7 +12,7 @@ var clor = "rgb(202, 202, 202)";
 var img = document.getElementById("heroimg");
 var wid = screen.width;
 if (wid < 901) {
-    img.src = "img/hero.jpg";
+    img.src = "https://instagram.fslv1-2.fna.fbcdn.net/vp/40c18de2523b7b3edbb9a8f383dc8810/5DB74F89/t51.2885-19/s150x150/61303548_850893918599943_5550910738026987520_n.jpg?_nc_ht=instagram.fslv1-2.fna.fbcdn.net";
 } else {
     img.src = "img/plogo144.png";
 }
