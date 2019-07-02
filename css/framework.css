@@ -39,3 +39,18 @@
 .text_bold {
     font-size: bolder;
 }
+
+.hr-center {
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.relative {
+    position: relative;
+}

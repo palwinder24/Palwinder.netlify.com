@@ -46,38 +46,32 @@
         transition-duration: 1s;
         transition-timing-function: cubic-bezier(.36, .55, .63, .48);
     }
+    #heading_text {
+        position: fixed;
+        z-index: 3;
+        left: 0;
+        margin-top: 0px;
+        padding: 15px;
+        /* background: #292929;    border-radius: 246px;
+        font-family: Roboto; */
+        font-style: normal;
+        font-size: 37px;
+        color: #4201ff;
+        right: 0;
+        top: 0;
+    }
     #homepage {
         margin-top: 15%;
+    }
+    #heroimg {
+        width: 35%;
+        margin-top: 10%;
     }
     #contact {
         z-index: 0;
         position: relative;
         text-shadow: 1px 1px 1rem #585858;
         margin: auto;
-    }
-    #hr {
-        position: relative;
-        margin-top: 22%;
-        margin-left: 5%;
-        margin-right: 5%;
-        overflow: hidden;
-        color: white;
-    }
-    #heading_text {
-        position: fixed;
-        z-index: 3;
-        left: 0;
-        margin-top: 0px;
-        padding-top: 30px;
-        padding-left: 30px;
-        background: #292929;
-        /* border-radius: 246px; */
-        font-family: Roboto;
-        font-style: normal;
-        font-size: 37px;
-        color: #4201ff;
-        right: 0;
-        top: 0;
     }
     .navbar {
         z-index: 3;
@@ -128,28 +122,15 @@
         border-width: 0px;
         font-size: 20px;
     }
-    #heroimg {
-        align-items: center;
-        width: 40%;
-        height: 20%;
-        border-radius: 50%;
-        margin-top: 10%;
-        left: 20%;
-    }
     .hero_text {
-        margin-left: 56%;
-        margin-right: 24%;
+        margin-left: 60%;
+        margin-right: 25%;
         font-size: 21px;
         color: white;
         background: #4201ff;
         padding: 10px;
-        padding-left: 0;
-        padding-right: 0;
-        margin-top: -13%;
-        z-index: 1;
-        position: relative;
-        border-radius: 100px;
-        text-align: center;
+        margin-top: -3.5rem;
+        border-radius: 10rem;
     }
     .hero_name {
         margin: 19%;
@@ -223,9 +204,6 @@
         background: #292929;
         color: white;
         font-family: 'Mali', cursive;
-    }
-    .hero_center {
-        text-align: center;
     }
     .inline {
         display: inline;
