@@ -1,6 +1,7 @@
 var widths = screen.width;
+var height = screen.height;
 var homepage = document.getElementById("homepage");
-var userpage = document.getElementById("userpage");
+var userpage = document.getElementById("contactpage");
 var blogpage = document.getElementById("blogpage");
 var resumepage = document.getElementById("resumepage");
 var heading_text = document.getElementById("heading_text");
@@ -21,9 +22,14 @@ console.log(widths)
 
 function loadhome() {
     userpage.style.visibility = "hidden";
+    userpage.style.height = "2px";
     blogpage.style.visibility = "hidden";
+    blogpage.style.height = "2px";
+
     resumepage.style.visibility = "hidden";
+    resumepage.style.height = "2px";
     homepage.style.visibility = "visible";
+    homepage.style.height = "auto";
     btn1.color = "#4201ff";
     btn2.color = clor;
     btn3.color = clor;
@@ -39,9 +45,13 @@ function loadhome() {
 
 function loadblog() {
     homepage.style.visibility = "hidden";
+    homepage.style.height = "1px";
     userpage.style.visibility = "hidden";
+    userpage.style.height = "1px";
     resumepage.style.visibility = "hidden";
+    resumepage.style.height = "1px";
     blogpage.style.visibility = "visible";
+    blogpage.style.height = "auto";
     var wid = screen.width;
     if (wid < 901) {
         heading_text.innerHTML = "Blog";
@@ -56,9 +66,13 @@ function loadblog() {
 
 function loadresume() {
     homepage.style.visibility = "hidden";
+    homepage.style.height = "2px";
     userpage.style.visibility = "hidden";
+    userpage.style.height = "2px";
     blogpage.style.visibility = "hidden";
+    blogpage.style.height = "2px";
     resumepage.style.visibility = "visible";
+    resumepage.style.height = "auto";
     var wid = screen.width;
     if (wid < 901) {
         heading_text.innerHTML = "Resume/C.V";
@@ -74,9 +88,14 @@ function loadresume() {
 
 function loaduser() {
     homepage.style.visibility = "hidden";
+    homepage.style.height = "2px";
     blogpage.style.visibility = "hidden";
+    blogpage.style.height = "2px";
     resumepage.style.visibility = "hidden";
+    resumepage.style.height = "2px";
+
     userpage.style.visibility = "visible";
+    userpage.style.height = "auto";
     var wid = screen.width;
     if (wid < 901) {
         heading_text.innerHTML = "Contact";

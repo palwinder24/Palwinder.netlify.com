@@ -46,26 +46,14 @@
         transition-duration: 1s;
         transition-timing-function: cubic-bezier(.36, .55, .63, .48);
     }
-    .blog_homepage {
-        display: none;
-        visibility: hidden;
-    }
-    #main_card {
-        display: none;
-        visibility: hidden;
-    }
     #homepage {
-        z-index: 0;
-        position: relative;
         margin-top: 15%;
-        text-shadow: 1px 1px 1rem #585858;
-        text-align: justify;
     }
-    #userpage {
+    #contact {
         z-index: 0;
         position: relative;
-        margin-top: -140%;
         text-shadow: 1px 1px 1rem #585858;
+        margin: auto;
     }
     #hr {
         position: relative;
@@ -109,6 +97,8 @@
     #landing_text {
         visibility: hidden;
         display: none;
+        height: 2px;
+        z-index: 3;
     }
     #navbtn1 {
         color: rgb(202, 202, 202);
@@ -191,6 +181,11 @@
         margin-bottom: 20%;
         box-shadow: 5px 5px 5rem 5px black;
     }
+    #sub_card {
+        display: none;
+        visibility: hidden;
+        height: 2px;
+    }
     .social_btn {
         font-weight: 700;
         text-align: center;
@@ -225,14 +220,20 @@
     }
     body {
         transition: 0.9s;
-        margin: 0;
-        -webkit-font-smoothing: antialiased;
         background: #292929;
         color: white;
-        text-align: justify;
         font-family: 'Mali', cursive;
     }
     .hero_center {
         text-align: center;
+    }
+    .inline {
+        display: inline;
+        overflow: hidden;
+    }
+    #main_card {
+        display: none;
+        visibility: hidden;
+        height: 0px;
     }
 }
