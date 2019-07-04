@@ -62,7 +62,7 @@ a {
 #toggle:checked~.nav {
     margin-bottom: 100px;
     pointer-events: auto;
-    transform: translate(50px, 50px);
+    transform: translate(0px, 50px);
 }
 
 #toggle:checked~.nav .nav-item {
@@ -126,14 +126,19 @@ a {
 .button-toggle {
     position: absolute;
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin: 25px;
+    width: 35px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    margin-left: 96%;
+    z-index: 2;
     background-color: transparent;
     border: none;
     cursor: pointer;
     border-radius: 100%;
     transition: 0.6s;
+    float: right;
+    border-radius: 20;
 }
 
 .button-toggle:hover {
@@ -169,12 +174,14 @@ a {
     margin: 25px 25px 20px;
     pointer-events: none;
     transition: 0.5s;
+    /* text-align: -webkit-left; */
+    margin-left: auto;
 }
 
 .nav-item {
     position: relative;
     display: inline-block;
-    float: left;
+    float: right;
     clear: both;
     color: transparent;
     font-size: 14px;
