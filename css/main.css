@@ -1,217 +1,265 @@
-@media only screen and (min-device-width: 100px) and (max-device-width: 900px) {
-    .progress {
-        display: inline-block;
-        overflow: hidden;
-        height: 45px;
-        width: 80%;
-        margin: 10%;
-        margin-top: 1.5%;
-        margin-bottom: 1.5%;
-        border-radius: 20px;
-        background: #f9f9f9;
-    }
-    .c_cplus {
-        background: #00b497;
-        width: 70%;
-    }
-    .html {
-        background: #00b497;
-        width: 85%;
-    }
-    .css {
-        background: #00b497;
-        width: 85%;
-    }
-    .php {
-        background: #00b497;
-        width: 70%;
-    }
-    .sql {
-        background: #00b497;
-        width: 50%;
-    }
-    .python {
-        background: #00b497;
-        width: 30%;
-    }
-    .java {
-        background: #00b497;
-        width: 10%;
-    }
-    .bar {
-        padding: 10px;
-        height: 100%;
-        left: 0;
-        transition: width;
-        transition-duration: 1s;
-        transition-timing-function: cubic-bezier(.36, .55, .63, .48);
-    }
-    #heading_text {
-        position: fixed;
-        z-index: 3;
-        left: 0;
-        margin-top: 0px;
-        padding: 15px;
-        /* background: #292929;    border-radius: 246px;
+    @media only screen and (min-device-width: 100px) and (max-device-width: 900px) {
+        .logo {
+            display: inline-block;
+        }
+        .logo img {
+            width: 50px;
+        }
+        img {
+            max-width: 100%;
+        }
+        #blogpage a {
+            color: #333;
+            text-decoration: none;
+            position: relative;
+            transition: all 0.3s;
+        }
+        .menu-click {
+            display: inline-block;
+        }
+        .menu-click {
+            display: none;
+            float: right;
+            position: relative;
+            width: 30px;
+            height: 20px;
+            margin-top: 12px;
+            margin-right: 5px;
+        }
+        .menu-click span:nth-child(1) {
+            top: 0px;
+        }
+        .menu-click span:nth-child(2) {
+            top: 46%;
+            width: 20px;
+        }
+        .menu-click span:nth-child(3) {
+            top: auto;
+            bottom: 0px;
+            width: 26px;
+        }
+        .menu-click span {
+            position: absolute;
+            background-color: #111;
+            right: 0px;
+            height: 2px;
+            width: 25px;
+            display: inline-block;
+            transition: all 0.3s;
+        }
+        .progress {
+            display: inline-block;
+            overflow: hidden;
+            height: 45px;
+            width: 80%;
+            margin: 10%;
+            margin-top: 1.5%;
+            margin-bottom: 1.5%;
+            border-radius: 20px;
+            background: #f9f9f9;
+        }
+        .c_cplus {
+            background: #00b497;
+            width: 70%;
+        }
+        .html {
+            background: #00b497;
+            width: 85%;
+        }
+        .css {
+            background: #00b497;
+            width: 85%;
+        }
+        .php {
+            background: #00b497;
+            width: 70%;
+        }
+        .sql {
+            background: #00b497;
+            width: 50%;
+        }
+        .python {
+            background: #00b497;
+            width: 30%;
+        }
+        .java {
+            background: #00b497;
+            width: 10%;
+        }
+        .bar {
+            padding: 10px;
+            height: 100%;
+            left: 0;
+            transition: width;
+            transition-duration: 1s;
+            transition-timing-function: cubic-bezier(.36, .55, .63, .48);
+        }
+        #heading_text {
+            position: fixed;
+            z-index: 3;
+            left: 0;
+            margin-top: 0px;
+            padding: 15px;
+            /* background: #292929;    border-radius: 246px;
         font-family: Roboto; */
-        font-style: normal;
-        font-size: 37px;
-        color: #4201ff;
-        right: 0;
-        top: 0;
+            font-style: normal;
+            font-size: 37px;
+            color: #4201ff;
+            right: 0;
+            top: 0;
+        }
+        #homepage {
+            margin-top: 15%;
+        }
+        #heroimg {
+            width: 35%;
+            margin-top: 10%;
+        }
+        #contact {
+            z-index: 0;
+            position: relative;
+            text-shadow: 1px 1px 1rem #585858;
+            margin: auto;
+        }
+        .navbar {
+            z-index: 3;
+            overflow: hidden;
+            background-color: #292929;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            padding: 20px;
+            align-items: center;
+            text-align: center;
+            font-weight: bold;
+        }
+        #landing_text {
+            visibility: hidden;
+            display: none;
+            height: 2px;
+            z-index: 3;
+        }
+        #navbtn1 {
+            color: rgb(202, 202, 202);
+            padding: 10px;
+            text-shadow: black;
+            border-width: 0px;
+            font-size: 20px;
+        }
+        #navbtn2 {
+            color: rgb(202, 202, 202);
+            padding: 10px;
+            text-shadow: black;
+            border-width: 0px;
+            font-size: 20px;
+        }
+        #navbtn3 {
+            color: rgb(202, 202, 202);
+            padding: 10px;
+            text-shadow: black;
+            border-width: 0px;
+            font-size: 20px;
+        }
+        #navbtn4 {
+            color: rgb(202, 202, 202);
+            padding: 10px;
+            text-shadow: black;
+            border-width: 0px;
+            font-size: 20px;
+        }
+        .hero_text {
+            margin-left: 60%;
+            margin-right: 25%;
+            font-size: 21px;
+            color: white;
+            background: #4201ff;
+            padding: 10px;
+            margin-top: -3.5rem;
+            border-radius: 10rem;
+        }
+        .hero_name {
+            margin: 19%;
+            font-size: 20px;
+            color: white;
+            background: #4201ff;
+            padding: 13px;
+            margin-top: 0%;
+            z-index: 1;
+            position: relative;
+            border-radius: 100px;
+            text-align: center;
+        }
+        .hero_card {
+            font-weight: 700;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+            background: #4201ff;
+            padding: 15px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 25px;
+            z-index: 1;
+            position: relative;
+            border-radius: 22px;
+            margin: 4%;
+            margin-top: -12%;
+            margin-bottom: 20%;
+            box-shadow: 5px 5px 5rem 5px black;
+        }
+        #sub_card {
+            display: none;
+            visibility: hidden;
+            height: 2px;
+        }
+        .social_btn {
+            font-weight: 700;
+            text-align: center;
+            font-size: 22px;
+            color: white;
+            background: #4201ff;
+            padding: 20px;
+            padding-bottom: 25px;
+            z-index: 1;
+            position: relative;
+            border-radius: 22px;
+            margin-left: 4%;
+            margin-right: 4%;
+            box-shadow: 5px 5px 5rem 5px black;
+        }
+        .social_btn a {
+            text-align: center;
+            font-size: 22px;
+            color: white;
+            z-index: 1;
+            position: relative;
+            border-radius: 22px;
+            box-shadow: 5px 5px 5rem 5px black;
+        }
+        .social_text {
+            margin-left: 6%;
+            margin-top: 10%;
+            font-size: 30px;
+        }
+        .skills {
+            font-size: 30px;
+        }
+        body {
+            transition: 0.9s;
+            background: #292929;
+            color: white;
+            font-family: 'Mali', cursive;
+        }
+        .inline {
+            display: inline;
+            overflow: hidden;
+        }
+        #main_card {
+            display: none;
+            visibility: hidden;
+            height: 0px;
+        }
     }
-    #homepage {
-        margin-top: 15%;
-    }
-    #heroimg {
-        width: 35%;
-        margin-top: 10%;
-    }
-    #contact {
-        z-index: 0;
-        position: relative;
-        text-shadow: 1px 1px 1rem #585858;
-        margin: auto;
-    }
-    .navbar {
-        z-index: 3;
-        overflow: hidden;
-        background-color: #292929;
-        color: white;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        padding: 20px;
-        align-items: center;
-        text-align: center;
-        font-weight: bold;
-    }
-    #landing_text {
-        visibility: hidden;
-        display: none;
-        height: 2px;
-        z-index: 3;
-    }
-    #navbtn1 {
-        color: rgb(202, 202, 202);
-        padding: 10px;
-        text-shadow: black;
-        border-width: 0px;
-        font-size: 20px;
-    }
-    #navbtn2 {
-        color: rgb(202, 202, 202);
-        padding: 10px;
-        text-shadow: black;
-        border-width: 0px;
-        font-size: 20px;
-    }
-    #navbtn3 {
-        color: rgb(202, 202, 202);
-        padding: 10px;
-        text-shadow: black;
-        border-width: 0px;
-        font-size: 20px;
-    }
-    #navbtn4 {
-        color: rgb(202, 202, 202);
-        padding: 10px;
-        text-shadow: black;
-        border-width: 0px;
-        font-size: 20px;
-    }
-    .hero_text {
-        margin-left: 60%;
-        margin-right: 25%;
-        font-size: 21px;
-        color: white;
-        background: #4201ff;
-        padding: 10px;
-        margin-top: -3.5rem;
-        border-radius: 10rem;
-    }
-    .hero_name {
-        margin: 19%;
-        font-size: 20px;
-        color: white;
-        background: #4201ff;
-        padding: 13px;
-        margin-top: 0%;
-        z-index: 1;
-        position: relative;
-        border-radius: 100px;
-        text-align: center;
-    }
-    .hero_card {
-        font-weight: 700;
-        text-align: center;
-        font-size: 20px;
-        color: white;
-        background: #4201ff;
-        padding: 15px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 25px;
-        z-index: 1;
-        position: relative;
-        border-radius: 22px;
-        margin: 4%;
-        margin-top: -12%;
-        margin-bottom: 20%;
-        box-shadow: 5px 5px 5rem 5px black;
-    }
-    #sub_card {
-        display: none;
-        visibility: hidden;
-        height: 2px;
-    }
-    .social_btn {
-        font-weight: 700;
-        text-align: center;
-        font-size: 22px;
-        color: white;
-        background: #4201ff;
-        padding: 20px;
-        padding-bottom: 25px;
-        z-index: 1;
-        position: relative;
-        border-radius: 22px;
-        margin-left: 4%;
-        margin-right: 4%;
-        box-shadow: 5px 5px 5rem 5px black;
-    }
-    .social_btn a {
-        text-align: center;
-        font-size: 22px;
-        color: white;
-        z-index: 1;
-        position: relative;
-        border-radius: 22px;
-        box-shadow: 5px 5px 5rem 5px black;
-    }
-    .social_text {
-        margin-left: 6%;
-        margin-top: 10%;
-        font-size: 30px;
-    }
-    .skills {
-        font-size: 30px;
-    }
-    body {
-        transition: 0.9s;
-        background: #292929;
-        color: white;
-        font-family: 'Mali', cursive;
-    }
-    .inline {
-        display: inline;
-        overflow: hidden;
-    }
-    #main_card {
-        display: none;
-        visibility: hidden;
-        height: 0px;
-    }
-}
